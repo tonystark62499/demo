@@ -1,14 +1,88 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  'type': 'geojson',
+  'data': {
+    "type": "FeatureCollection",
+      "features": [{
+        "type": "Feature",
+        "properties": {
+          "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436
+        },
+        "geometry": {"type": "Point", "coordinates": [-86.766586, 32.592527]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.494675, 32.440249]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.599045, 32.638797]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.692429, 32.472116]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.527634, 32.564176]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.829758, 32.54334]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.472702, 32.650938]}
+      },
+      {
+        "type": "Feature",
+        "properties": {  "GEO_ID": "0500000US01001",
+          "STATE": "01",
+          "COUNTY": "001",
+          "NAME": "Autauga",
+          "LSAD": "County",
+          "CENSUSAREA": 594.436},
+        "geometry": {"type": "Point", "coordinates": [-86.623764, 32.541025]}
+      }],
+  },
 }
